@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-message",
+  "name": "@captemulation/bitcore-message",
   "version": "1.0.3",
   "description": "Bitcoin Messages for Bitcore",
   "author": "BitPay <dev@bitpay.com>",
@@ -22,8 +22,8 @@
     "type": "git",
     "url": "https://github.com/bitpay/bitcore-message.git"
   },
-  "dependencies": {
-    "bitcore-lib": "^0.13.7"
+  "peerDependencies": {
+    "bitcore-lib": "^0.14"
   },
   "devDependencies": {
     "bitcore-build": "bitpay/bitcore-build",
